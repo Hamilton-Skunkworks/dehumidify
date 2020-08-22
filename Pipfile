@@ -10,10 +10,11 @@ flake8 = "*"
 mypy = "*"
 pytest = "*"
 pytest-cov = "*"
+pre-commit = "*"
 
 [packages]
-pre-commit = "*"
 requests = "*"
+google-cloud-secret-manager = "*"
 
 [requires]
 python_version = "3.8"
